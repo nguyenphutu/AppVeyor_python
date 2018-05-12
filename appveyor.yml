@@ -49,10 +49,6 @@ install:
   # target Python version and architecture
   - "pip install -r requirements.txt"
 
-build_script:
-  # Build the compiled extension
-  # "python setup.py build"
-
 test_script:
   # Run the project tests
   - "python -m unittest"
